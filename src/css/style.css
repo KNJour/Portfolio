@@ -30,7 +30,17 @@ body {
         margin-bottom: 100px;
     } */
 
-   
+}
+@media only screen and (max-width:900px) {
+
+    .smallBackground {
+        background-color:rgb(53, 53, 53);
+    }
+
+    /* .singleProjRow {
+        margin-bottom: 100px;
+    } */
+
 }
 /* TEST */
 
@@ -402,15 +412,17 @@ PROJECT SECTION  */
 .skillsWrapper h5{
     font-family: 'Sen', sans-serif;
     font-size: 35px;
+    margin-left: 25px;
 
 
 }
 .skillsWrapper {
-    
+    display: flex;
+    align-items: left;
  
 }
 .skillsBG {
-    clip-path: polygon(0% 0%, 51% 0, 75% 50%, 51% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0, 90% 50%, 75% 100%, 0% 100%);
     background-color: rgb(53, 53, 53);
     position: absolute;
     top:0;
@@ -436,6 +448,8 @@ PROJECT SECTION  */
     border: rgb(53, 53, 53);
     box-shadow: 10px 5px 5px rgb(53, 53, 53);
 }
+
+/* CONTACT FORM CSS */
 .formRow {
     max-width: 650px;
     margin: 10px auto;
@@ -472,4 +486,7 @@ PROJECT SECTION  */
 #git{
     margin-left: 40px;
 }
-/* CONTACT FORM CSS */
+
+.contactSubmit {
+
+}

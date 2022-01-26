@@ -10,7 +10,7 @@ const Contact = () => {
     const {register,handleSubmit,reset, formState: { errors }} = useForm();
 
     const toastifyProcessSuccessful = () => {
-        toast('Form sent!', {
+        toast('Message Sent!', {
           position: 'bottom-right',
           autoClose: 5000,
           hideProgressBar: true,
@@ -22,13 +22,15 @@ const Contact = () => {
         });
       };
 
-    const submitHandler = async (data) => {
+    const onSubmit = async (data) => {
         const {name, email, message} = data;
-        console.log("name: " + name + " email: " + email + " message: " + message)
+        console.log("is this working?");
+        console.log("name: " + name + " email: " + email + " message: " + message);
 
         try { 
+            
             const templateParameters = {name, email, message};
-            console.log(process.env.REACT_APP_SERVICE_ID)
+
             await emailjs.send(
                 process.env.REACT_APP_SERVICE_ID,
                 process.env.REACT_APP_TEMPLATE_ID,
@@ -68,7 +70,7 @@ const Contact = () => {
                         <div className="row">
                             <div className="col-12 text-center">
                                 <div className="formWrapper">
-                                    <form id="contact-form" onSubmit={handleSubmit(submitHandler)} noValidate>
+                                    <form id="contact-form" onSubmit={handleSubmit(onSubmit)} noValidate>
                                         <div className="row formRow">
                                             {/* NAME ROW */}
                                             <div className="col-12 d-flex text-center">
@@ -98,7 +100,7 @@ const Contact = () => {
                                                 {errors.message && <span className='errorMessage'>Please enter something in this box. Anything. Live your dreams. </span>}
                                             </div>
                                         </div>
-                                        <button type="button"className="submit-btn btn-dark text-light">Submit</button>
+                                        <button type="button"className="contactSubmit btn-dark text-light">Submit</button>
                                     </form>
                                 </div>
                             </div>
