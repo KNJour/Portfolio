@@ -3,19 +3,19 @@ import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-import React, { useState } from 'react';
+import React from 'react';
 
 const Contact = () => {
     // STATE FOR FUTURE FEATURE MAYBE BUT PROBABLY NOT
-    const [contactForm, setContactForm] = useState({
-        name: "",
-        email: "",
-        message: ""
-    });
+    // const [contactForm, setContactForm] = useState({
+    //     name: "",
+    //     email: "",
+    //     message: ""
+    // });
   
-    const changeHandler = e => {
-        setContactForm({...contactForm, [e.target.name]: e.target.value});
-    } 
+    // const changeHandler = e => {
+    //     setContactForm({...contactForm, [e.target.name]: e.target.value});
+    // } 
 
     const {register, handleSubmit, reset, formState: {errors}} = useForm();
 
@@ -69,7 +69,7 @@ const Contact = () => {
                     <div className="contactInfo">
                         <h1 id="contactStart">Email: <span className="darkBlue">KNJournell@gmail.com</span></h1>
                         <h2 id="phone">Phone: <span className="darkBlue">(571)-288-7110</span></h2>
-                        <h2 className="makeBlue" id="git">GitHub: <a href="https://github.com/KNJour" className="darkBlue" target="_blank">GitHub.com/KNJour</a></h2>
+                        <h2 className="makeBlue" id="git">GitHub: <a href="https://github.com/KNJour" className="darkBlue" target="_blank" rel="noreferrer">GitHub.com/KNJour</a></h2>
                     </div>
                 </div>
             </div>

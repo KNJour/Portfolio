@@ -24,8 +24,8 @@ const Projects = () => {
                             <div className="projLeftBG"></div>
                               <img src={require('../img/reviewsource.png')} alt="the review source site" className="projectImg img-fluid mb-3"/>
                                 <div className="project-link">
-                                        <a href="https://github.com/KNJour/reviewsource" id="portfolio-link" target="_blank">GitHub</a>
-                                        <a href="https://reviewsource.site" target="_blank"  id="portfolio-link">Visit The Website</a>
+                                        <a href="https://github.com/KNJour/reviewsource" id="portfolio-link" target="_blank" rel="noreferrer">GitHub</a>
+                                        <a href="https://reviewsource.site" target="_blank" rel="noreferrer" id="portfolio-link">Visit The Website</a>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 rightProject d-flex align-items-center">
@@ -44,8 +44,8 @@ const Projects = () => {
                                 <div className="projRightBG2"></div>
                                 <img src={require('../img/budgetpal.png')} alt="the budget pal site" className="projectImg img-fluid mb-3"/>
                                 <div className="project-link">
-                                        <a href="https://github.com/KNJour/budgetpal" target="_blank" id="portfolio-link">GitHub</a>
-                                        <a href="http://thebudgetpal.com" target="_blank"  id="portfolio-link">Visit The Website</a>
+                                        <a href="https://github.com/KNJour/budgetpal" target="_blank" id="portfolio-link" rel="noreferrer">GitHub</a>
+                                        <a href="http://thebudgetpal.com" target="_blank"  id="portfolio-link" rel="noreferrer">Visit The Website</a>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 rightProject d-flex align-items-center order-md-1">
