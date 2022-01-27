@@ -52,9 +52,9 @@ const Contact = () => {
                                 {/* <img src={require('../img/me.png')} alt="test" className="img-fluid mePhoto "/> */}
                         </div>
                     </div>
-                    <div className="row mt-2">
-                        <div className="col-12 col-md-6">
-                            <img src={require('../img/tuxedopooh.jpeg')} alt="test" className="img-fluid tuxedoImg"/> 
+                    <div className="row m-4">
+                        <div className="col-12 col-md-6 d-flex justify-content-center">
+                            <img src={require('../img/suit.png')} alt="test" className="img-fluid tuxedoImg"/> 
                         </div>
                         <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
                             <div className="projectsHeader">

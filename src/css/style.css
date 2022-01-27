@@ -26,6 +26,11 @@ body {
         background-color:rgb(53, 53, 53);
     }
 
+    .keepAway {
+        margin-bottom: 250px;
+        font-weight: bold;
+    }
+
     /* .singleProjRow {
         margin-bottom: 100px;
     } */
@@ -71,6 +76,19 @@ body {
     /* background-color: #e7e7e7; */
 }
 #portfolio-link {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(27, 101, 174);
+    font-family:'sen', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+}
+#portfolio-link:hover {
+    color: rgb(37, 161, 222);
+    
+}
+
+#fancyText {
     margin: 10px;
     text-decoration: none;
     color: rgb(27, 101, 174);
@@ -294,7 +312,7 @@ PROJECT SECTION  */
     
 }
 .projRightBG {
-    clip-path: circle(10% at 67% 76%);
+    clip-path: circle(8.7% at 59% 11%);
     background-color:rgb(53, 53, 53);
     position: absolute;
     top:0;
@@ -313,7 +331,7 @@ PROJECT SECTION  */
 }
 
 .projRightBG2 {
-    clip-path: circle(22.0% at 24% 43%);
+    clip-path: circle(6.4% at 11% 25%);
     background-color:rgb(53, 53, 53);
     position: absolute;
     top:0;
@@ -331,15 +349,17 @@ PROJECT SECTION  */
     height: 100%;
     width: 100%;
 }
-.project-link {
 
-}
 
 .leftProject {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
+
+
 .rightProject {
     font-size: 25px;
     font-family: 'Sen', sans-serif;
@@ -361,7 +381,12 @@ PROJECT SECTION  */
     font-size: 40px;
 }
 
-
+.currentProjLeft {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
 
 #currentProject {
     color: rgb(53, 53, 53);
@@ -375,6 +400,14 @@ PROJECT SECTION  */
     font-size: 22px;
     font-family: 'Sen', sans-serif;
     position: relative;
+}
+
+.currentProjectImg {
+    height: 65%;
+    border: rgb(53, 53, 53) solid 3px;
+    border-radius: 20%;
+    z-index: 1;
+    box-shadow: 5px 5px 5px rgb(53, 53, 53);
 }
 
 /* SKILLS SECTION */
@@ -443,10 +476,9 @@ PROJECT SECTION  */
 }
 
 .tuxedoImg {
-    width: 400px;
+    width: 300px;
     transform: rotate(-5deg);
     border: rgb(53, 53, 53);
-    box-shadow: 10px 5px 5px rgb(53, 53, 53);
 }
 
 /* CONTACT FORM CSS */
@@ -456,16 +488,6 @@ PROJECT SECTION  */
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.profSkillsItem {
-
-}
-
-.contact-form-container {
-
-}
-.formWrapper {
-
 }
 .contactHeader {
     margin-left: 50px;
@@ -485,8 +507,4 @@ PROJECT SECTION  */
 }
 #git{
     margin-left: 40px;
-}
-
-.contactSubmit {
-
 }
