@@ -16,14 +16,15 @@ const Home = props => {
 
     return(
         // CONTAINER START
-        <div className="container-fluid main-contain m-0 p-0">
-            <div className="row headerRow d-flex justify-content-center text-center">
-                <div className="col-12">
-                <div className="title-subtitle-div">
-                    <img  src={require('../img/keithjournell.png')} alt="test" className="img-fluid logo"/>
-                    
-                    <h1 className="subtitle">Full-Stack <span className="darkBlue">Software Developer</span></h1>
-                </div>
+        <div>
+        <div className="container-fluid main-contain">
+            <div className="row headerRow d-flex justify-content-center text-center align-items-center">
+                <div className="col-12 ">
+                    <div className="title-subtitle-div">
+                        <img  src={require('../img/keithjournell.png')} alt="test" className="img-fluid logo"/>
+                        
+                        <h1 className="subtitle">Full-Stack <span className="darkBlue">Software Developer</span></h1>
+                    </div>
                 </div>
             
             </div>
@@ -41,12 +42,12 @@ const Home = props => {
             <div className="row justify-content-center text-center m-2 p-2">
                 <img src={require('../img/logoBanner.png')} alt="test" className="img-fluid logoBanner"/>
             </div>
-
+            </div>
             <About/>
             <Projects/>
             <Skills/>
             <Contact/>
-        </div>
+            </div>
         
 
      

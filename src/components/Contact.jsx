@@ -56,20 +56,38 @@ const Contact = () => {
 
     
   return(
-        <div className="ContactForm">
+    <div className="container-fluid ">
+
+        <div className="ContactForm mt-5">
             <div className="row">
                 <div className="col-12 ">
                     <div className="contactHeader">
-                        <h1 id="contactStart">Contact</h1>
+                        <img src={require('../img/Me.png')} alt="the review source site" className="meImageSmall img-fluid d-sm-none clip-hex"/>
+                        <h2 className="d-sm-none"id="contactStart">Contact</h2>
+                        <h4 className="display-4 d-none d-sm-block"id="contactStart">Contact</h4>
                     </div>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-12 ">
-                    <div className="contactInfo">
+            <div className="row d-flex align-items-center justify-content-center">
+                <div className="col-6 d-none d-sm-block">
+                    <div className="meWrapper">
+                        <img src={require('../img/Me.png')} alt="the review source site" className="meImage img-fluid mb-3 clip-hex"/>
+                    </div>
+                </div>
+                <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                    <div className="contactInfo d-none d-md-block">
                         <h1 id="contactStart">Email: <span className="darkBlue">KNJournell@gmail.com</span></h1>
-                        <h2 id="phone">Phone: <span className="darkBlue">(571)-288-7110</span></h2>
-                        <h2 className="makeBlue" id="git">GitHub: <a href="https://github.com/KNJour" className="darkBlue" target="_blank" rel="noreferrer">GitHub.com/KNJour</a></h2>
+                        <h2 id="phone" className="ml-3">Phone: <span className="darkBlue">(571)-288-7110</span></h2>
+                        <h2 className="makeBlue ml-5" id="git">GitHub: <a href="https://github.com/KNJour" className="darkBlue" target="_blank" rel="noreferrer">GitHub.com/KNJour</a></h2>
+                    </div>
+                    {/* SMALL CONTACT INFO */}
+                    <div className="contactInfoSmall d-md-none">
+                        <h2>Email</h2>
+                        <h3 className="darkBlue">KNJournell@gmail.com</h3>
+                        <h3 id="phone">Phone</h3>
+                        <h4 className="darkBlue">(571)-288-7110</h4>
+                        <h3 className="makeBlue" id="git">GitHub</h3>
+                        <h4><a href="https://github.com/KNJour" className="darkBlue" target="_blank" rel="noreferrer">GitHub.com/KNJour</a></h4>
                     </div>
                 </div>
             </div>
@@ -110,6 +128,7 @@ const Contact = () => {
                 <h2 id="fancyText">Thanks</h2>
             </div>
         </div>
+        .</div>
    
 )
     }

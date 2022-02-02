@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Contact = () => {
+const Skills = () => {
 
 
         return(
+            <div className="container-fluid main-contain">
             <div className="row skills d-flex justify-content-center ">
-                <div className="container-fluid">
                     <div className="row mb-4">
                         <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
                             <div className="projectsHeader">
@@ -18,13 +18,15 @@ const Contact = () => {
                     </div>
                     <div className="row skillRow smallBackground mb-5">
                         <div className="skillsBG"></div>
-                        <div className="col-12 col-md-7">
-                            <div className="skillColumn">
+                       
+                            {/* <div className="skillColumn">
                                 <h3>Languages</h3>
                                     <div className="skillsWrapper">
                                         <h5 className="skillsItem">JavaScript</h5>
                                         <h5 className="skillsItem">Python</h5>
                                         <h5 className="skillsItem">Java</h5>
+                                    </div>
+                                    <div className="skillsWrapper">
                                         <h5 className="skillsItem">React</h5>
                                         <h5 className="skillsItem">HTML</h5>
                                         <h5 className="skillsItem">CSS</h5>
@@ -46,14 +48,14 @@ const Contact = () => {
                                     <h5 className="skillsItem">Node JS</h5>
                                     <h5 className="skillsItem">Ajax</h5>
                                 </div>
-                            </div>
-                        </div>
+                            </div> */}
+                    
                         <div className="col-12 col-md-5">
                                 {/* <img src={require('../img/me.png')} alt="test" className="img-fluid mePhoto "/> */}
                         </div>
                     </div>
-                    <div className="row m-4">
-                        <div className="col-12 col-md-6 d-flex justify-content-center">
+                    <div className="row m-4 wideRow" >
+                        <div className="col-12 col-md-6 d-flex justify-content-center ">
                             <img src={require('../img/suit.png')} alt="test" className="img-fluid tuxedoImg"/> 
                         </div>
                         <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
@@ -78,9 +80,9 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
             </div>
         )
     }
 
-export default Contact;
+export default Skills;
