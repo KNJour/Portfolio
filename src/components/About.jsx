@@ -21,7 +21,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="aboutMe mb-4 p-2">
-                                <p>After spending over 10 years in the service and insurance industries, i've finally transitioned to my life-long dream of <s>spending two hours looking for a typo</s> becoming a software developer. </p>
+                                <p>After spending over 10 years in the service and insurance industries, I've finally transitioned to my life-long dream of <s>spending two hours looking for a typo</s> becoming a software developer. </p>
                                 <div className="buffer d-sm-none"></div>
                             </div>
                         </div>
