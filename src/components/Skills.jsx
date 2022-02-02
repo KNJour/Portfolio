@@ -1,88 +1,119 @@
 import React from 'react';
-
-const Skills = () => {
+const Skills1 = () => {
 
 
         return(
-            <div className="container-fluid main-contain">
-            <div className="row skills d-flex justify-content-center ">
-                    <div className="row mb-4">
-                        <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                            <div className="projectsHeader">
-                                <h1 id="skillStart">Technical Skills</h1>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6 d-none d-md-block">
-                            <img src={require('../img/sarcasm.jpeg')} alt="test" className="img-fluid sarcasmImg"/> 
+            <div className="container-fluid mt-5 ">
+
+                <div className="row">
+                    <div className="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+                        <div className="projectsHeader text-center">
+                        <h4 className="display-3 d-none d-md-block"id="skillStart">Technical Skills</h4>
+                        <h3 className="d-md-none"id="skillStart">Technical Skills</h3>
                         </div>
                     </div>
-                    <div className="row skillRow smallBackground mb-5">
-                        <div className="skillsBG"></div>
-                       
-                            {/* <div className="skillColumn">
-                                <h3>Languages</h3>
-                                    <div className="skillsWrapper">
-                                        <h5 className="skillsItem">JavaScript</h5>
-                                        <h5 className="skillsItem">Python</h5>
-                                        <h5 className="skillsItem">Java</h5>
-                                    </div>
-                                    <div className="skillsWrapper">
-                                        <h5 className="skillsItem">React</h5>
-                                        <h5 className="skillsItem">HTML</h5>
-                                        <h5 className="skillsItem">CSS</h5>
-                                    </div>
-                            </div>
-                            <div className="skillColumn">
-                                <h3>Databases</h3>
-                                    <div className="skillsWrapper">
-                                        <h5 className="skillsItem">MySQL</h5>
-                                        <h5 className="skillsItem">MongoDB</h5>
-                                    </div>
-                            </div>
-                            <div className="skillColumn">
-                                <h3>Frameworks/Misc</h3>
-                                <div className="skillsWrapper">
-                                    <h5 className="skillsItem">Flask</h5>
-                                    <h5 className="skillsItem">Django</h5>
-                                    <h5 className="skillsItem">Express</h5>
-                                    <h5 className="skillsItem">Node JS</h5>
-                                    <h5 className="skillsItem">Ajax</h5>
-                                </div>
-                            </div> */}
-                    
-                        <div className="col-12 col-md-5">
-                                {/* <img src={require('../img/me.png')} alt="test" className="img-fluid mePhoto "/> */}
+                    <div className="col-12 col-sm-6 d-flex align-items-center justify-content-center">
+                        <img src={require('../img/sarcasm.jpeg')} alt="test" className="img-fluid sarcasmImg d-none d-md-block"/> 
+                    </div>
+                </div>
+                
+
+            {/* TECHNICAL SKILLS LIST */}
+            <div className="skillRow relative">
+                <div className="skillsBG"></div>
+                <div className="row buffer"></div>
+                <div className="row">
+                    <div className="col-12 col-md-4 skillColumn">
+                        <h2 className="d-none d-md-block">Languages</h2>
+                        <h3 className="d-md-none"id="skillStart">Languages</h3>
+                        <h4 className="skillsItem" id="smallNoMargin">JavaScript</h4>
+                        <h4 className="skillsItem" id="smallNoMargin">Python</h4>
+                        <h4 className="skillsItem" id="smallNoMargin">Java</h4>
+                        <h4 className="skillsItem" id="smallNoMargin">React</h4>
+                        <h4 className="skillsItem" id="smallNoMargin">HTML</h4>
+                        <h4 className="skillsItem" id="smallNoMargin">CSS</h4>
+                        <div className=" d-md-none">
+                            <img src={require('../img/java.png')} alt="java" className="img languageImageSmall"/> 
+                            <img src={require('../img/python.png')} alt="python" className="img-fluid languageImageSmall "/> 
+                            <img src={require('../img/react.png')} alt="react" className="img-fluid languageImageSmall"/> 
+                            <img src={require('../img/JavaScript-logo.png')} alt="react" className="img-fluid languageImageSmall"/> 
                         </div>
                     </div>
-                    <div className="row m-4 wideRow" >
-                        <div className="col-12 col-md-6 d-flex justify-content-center ">
-                            <img src={require('../img/suit.png')} alt="test" className="img-fluid tuxedoImg"/> 
+                    <div className="col-md-8 skillsImageWrapper">
+                        <img src={require('../img/java.png')} alt="java" className="img languageImg d-none d-md-block"/> 
+                        <img src={require('../img/python.png')} alt="python" className="img-fluid languageImg d-none d-md-block"/> 
+                        <img src={require('../img/react.png')} alt="react" className="img-fluid languageImg d-none d-md-block"/> 
+                        <img src={require('../img/JavaScript-logo.png')} alt="react" className="img-fluid languageImg d-none d-md-block"/> 
+                    </div>
+                </div> 
+
+                 <div className="row ">
+                    <div className="col-12 col-md-4 skillColumn">
+                        <h2 className="d-none d-md-block">Databases</h2>
+                        <h3 className="d-md-none"id="skillStart">Databases</h3>
+                        <h4 className="skillsItem" id="smallNoMargin">MySQL</h4>
+                        <h4 className="skillsItem" id="smallNoMargin">MongoDB</h4>
+                        <div className=" d-md-none">
+                            <img src={require('../img/MySQL.png')} alt="java" className="img languageImageSmall bg-light"/> 
+                            <img src={require('../img/mongodb.png')} alt="python" className="img-fluid languageImageSmall bg-light"/>  
                         </div>
-                        <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                            <div className="projectsHeader">
-                                <h1 id="skillStart">Professional Skills</h1>
+                    </div>
+                    <div className="col-12 col-md-8 skillsImageWrapper">
+                                    <img src={require('../img/MySQL.png')} alt="MySQL" className="img-fluid languageImg bg-light d-none d-md-block"/> 
+                                    <img src={require('../img/mongodb.png')} alt="MongoDB" className="img-fluid languageImg bg-light d-none d-md-block"/> 
+                    </div>
+                </div> 
+               
+                <div className="row ">
+                    <div className="col-12 col-md-4 skillColumn">
+                        <h2 className="d-none d-md-block">Frameworks/Misc.</h2>
+                        <h3 className="d-md-none"id="skillStart">Frameworks/Misc.</h3>
+                        <h4 className="skillsItem">Flask</h4>
+                        <h4 className="skillsItem">Django</h4>
+                        <h4 className="skillsItem">NodeJS</h4>
+                        <h4 className="skillsItem">Express</h4>
+                        <h4 className="skillsItem">Ajax</h4>
+                        <h4 className="skillsItem">CSS</h4>
+                        <div className="d-md-none">
+                        <img src={require('../img/flask.png')} alt="java" className="img-fluid languageImageSmall bg-light"/> 
+                        <img src={require('../img/django2.png')} alt="python" className="img-fluid languageImageSmall"/> 
+                        <img src={require('../img/nodejs.png')} alt="react" className="img-fluid languageImageSmall"/> 
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-8 skillsImageWrapper">
+                        <img src={require('../img/flask.png')} alt="Flask" className="img-fluid languageImg bg-light d-none d-md-block"/> 
+                        <img src={require('../img/django2.png')} alt="Django" className="img-fluid languageImg d-none d-md-block"/> 
+                        <img src={require('../img/nodejs.png')} alt="NodeJS" className="img-fluid languageImg d-none d-md-block"/> 
+                    </div>
+                </div> 
+                <div className="row buffer"></div>
+                </div>
+
+            <div className="row m-4 " >
+                        <div className="col-12">
+                            <div className="skillsHeader">
+                                <h4 className="display-3 d-none d-md-block"id="skillStart">Professional Skills</h4>
+                                <h3 className="d-md-none"id="skillStart">Professional Skills</h3>
+                                <img src={require('../img/suit.png')} alt="test" className="img-fluid tuxedoImg m-2 d-none d-md-block"/> 
                             </div>
                         </div>
                     </div>
                     <div className="row mt-4">
                         <div className="col-12">
-                            <div className="skillColumn">
                                 <div className="skillsWrapper">
                                     <ul>
-                                        <li><h5 className="profSkillsItem">Capable of developing full-stack software applications, knowledgeable of MVC sofware design patterns. </h5></li>
-                                        <li><h5 className="profSkillsItem">Experienced with Data Structures, algorithms, and Object-Oriented-Programming.</h5></li>
-                                        <li><h5 className="profSkillsItem">A quick learner and adaptable.</h5></li>
-                                        <li><h5 className="profSkillsItem">Excellent time management skills, self-starter. </h5></li>
-                                        <li><h5 className="profSkillsItem">Advanced problem solving skills. </h5></li>
-                                        <li><h5 className="profSkillsItem"> I can eat a whole bushel of bananas in one sitting. A big one. </h5></li>
+                                        <li><p className="profSkillsItem">Capable of developing full-stack software applications, knowledgeable of MVC sofware design patterns. </p></li>
+                                        <li><p className="profSkillsItem">Experienced with Data Structures, algorithms, and Object-Oriented-Programming.</p></li>
+                                        <li><p className="profSkillsItem">A quick learner and adaptable.</p></li>
+                                        <li><p className="profSkillsItem">Excellent time management skills, self-starter. </p></li>
+                                        <li><p className="profSkillsItem">Advanced problem solving skills. </p></li>
                                     </ul>
                                 </div>
-                            </div>
                         </div>
                     </div>
-            </div>
+
             </div>
         )
     }
 
-export default Skills;
+export default Skills1;
