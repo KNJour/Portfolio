@@ -348,7 +348,7 @@ PROJECT SECTION  */
     
 }
 .projRightBG {
-    clip-path: circle(8.7% at 59% 11%);
+    clip-path: circle(8.0% at 59% 11%);
     background-color:rgb(53, 53, 53);
     position: absolute;
     top:0;

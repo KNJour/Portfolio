@@ -68,7 +68,7 @@ const Projects = () => {
                         <img src={require('../img/pirate.jpeg')} alt="the review source site" className="projectImg img-fluid mb-3"/>
                         <div className="projectLinks">
                                 <a href="https://github.com/KNJour/Pirate-Football-Manager" id="project-link" target="_blank" rel="noreferrer">GitHub</a>
-                                <a href="https://piratefootballmanager.club" target="_blank" rel="noreferrer" id="project-link">Visit The Website</a>
+                                
                         </div>
                     </div>
                     <div className="col-12 col-md-6 rightProject d-flex align-items-center">
@@ -76,6 +76,7 @@ const Projects = () => {
                         <div className="projectTextWrapper text-center" id="front">
                             <h2>Pirate Football Manager</h2>
                             <h4>React - Express - MongoDB - NodeJS</h4>
+                            <h5>Deployment Coming Soon</h5>
                             <p id="front">A full-stack MERN project designed to demonstrate functional knowledge of React and Props. Users can create pirates with full CRUD functionality. There is no football... yet?</p>
                         </div>
                     </div>
