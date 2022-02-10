@@ -256,7 +256,12 @@ RIGHT SIDE  */
     position:relative;
 }
 
+.aboutLeftCol {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 
+}
 
 
 .leftCol {
