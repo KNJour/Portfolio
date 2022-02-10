@@ -453,6 +453,15 @@ PROJECT SECTION  */
     box-shadow: 5px 5px 5px rgb(53, 53, 53);
 }
 
+.projectImgSmall {
+    height: 175px;
+    width: 225px;
+    border: rgb(53, 53, 53) solid 3px;
+    border-radius: 20%;
+    z-index: 1;
+    box-shadow: 5px 5px 5px rgb(53, 53, 53);
+}
+
 /* SKILLS SECTION */
 
 .sarcasmImg {

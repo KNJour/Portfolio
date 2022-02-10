@@ -21,10 +21,12 @@ const Projects = () => {
                 <div className="row m-2 p-2">
                     <div className="col-12 col-md-6 leftProject ">
                         <div className="projLeftBG"></div>
-                        <img src={require('../img/reviewsource.png')} alt="the review source site" className="projectImg img-fluid mb-3"/>
+                        <img src={require('../img/reviewsource.png')} alt="the review source site" className="projectImg img-fluid mb-3 d-none d-md-block"/>
+                        <img src={require('../img/reviewsource.png')} alt="the reviewSource site" className="projectImgSmall img-fluid mb-3 d-md-none"/>
                         <div className="projectLinks">
                                 <a href="https://github.com/KNJour/reviewsource" id="project-link" target="_blank" rel="noreferrer">GitHub</a>
-                                <a href="https://reviewsource.site" target="_blank" rel="noreferrer" id="project-link">Visit The Website</a>
+                                <a href="https://reviewsource.site" target="_blank" rel="noreferrer" id="project-link" class="d-none d-md-block">Visit The Website</a>
+                                <a href="https://reviewsource.site" target="_blank" rel="noreferrer" id="project-link" class="d-md-none">Website</a>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 rightProject d-flex align-items-center">
@@ -43,10 +45,12 @@ const Projects = () => {
                 <div className="row p-2">
                     <div className="col-12 col-md-6 leftProject order-md-12 pr-1">
                         <div className="projRightBG2"></div>
-                        <img src={require('../img/budgetpal.png')} alt="the budget pal site" className="projectImg img-fluid mb-3"/>
+                        <img src={require('../img/budgetpal.png')} alt="the budget pal site" className="projectImg img-fluid mb-3 d-none d-md-block"/>
+                        <img src={require('../img/budgetpal.png')} alt="the budget pal site" className="projectImgSmall img-fluid mb-3 d-md-none"/>
                         <div className="projectLinks">
                                 <a href="https://github.com/KNJour/budgetpal" target="_blank" id="project-link" rel="noreferrer">GitHub</a>
-                                <a href="http://thebudgetpal.com" target="_blank"  id="project-link" rel="noreferrer">Visit The Website</a>
+                                <a href="http://thebudgetpal.com" target="_blank"  id="project-link" rel="noreferrer" class="d-none d-md-block">Visit The Website</a>
+                                <a href="http://thebudgetpal.com" target="_blank"  id="project-link" rel="noreferrer" class="d-md-none">Visit The Website</a>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 rightProject d-flex align-items-center order-md-1">
@@ -65,7 +69,8 @@ const Projects = () => {
                 <div className="row m-2 p-2">
                     <div className="col-12 col-md-6 leftProject ">
                         <div className="projLeftBG"></div>
-                        <img src={require('../img/pirate.jpeg')} alt="the review source site" className="projectImg img-fluid mb-3"/>
+                        <img src={require('../img/pirate.jpeg')} alt="the review source site" className="projectImg img-fluid mb-3 d-none d-md-block"/>
+                        <img src={require('../img/pirate.jpeg')} alt="the review source site" className="projectImgSmall img-fluid mb-3 d-md-none"/>
                         <div className="projectLinks">
                                 <a href="https://github.com/KNJour/Pirate-Football-Manager" id="project-link" target="_blank" rel="noreferrer">GitHub</a>
                                 
@@ -93,7 +98,8 @@ const Projects = () => {
                         </div>
                         <div className="row m-2 p-1">
                                 <div className="col-12 col-md-6 currentProjLeft ">
-                                    <img src={require('../img/wireframe.jpeg')} alt="test" className="currentProjectImg img-fluid mb-3 "/>
+                                    <img src={require('../img/wireframe.jpeg')} alt="test" className="currentProjectImg img-fluid mb-3 d-none d-md-block"/>
+                                    <img src={require('../img/wireframe.jpeg')} alt="test" className="projectImgSmall img-fluid mb-3 d-md-none"/>
                                 </div>
                                 <div className="col-12 col-md-6 rightCurrentProject d-flex smallChange">
                                 <div className="projectTextWrapper makeWhite text-center">

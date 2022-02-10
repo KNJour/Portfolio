@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2cefaeba.css",
+    "main.js": "/static/js/main.7625606c.js",
+    "static/js/787.db9b214f.chunk.js": "/static/js/787.db9b214f.chunk.js",
+    "static/media/reviewsource.png": "/static/media/reviewsource.365afc368e1117115702.png",
+    "static/media/budgetpal.png": "/static/media/budgetpal.1bd4479096fe9ef26519.png",
+    "static/media/Me.png": "/static/media/Me.f21d2193b883b957cb82.png",
+    "static/media/react.png": "/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/pirate.jpeg": "/static/media/pirate.ea3e0353ef7248c72d7c.jpeg",
+    "static/media/logoBanner.png": "/static/media/logoBanner.f9d276efff55424307d0.png",
+    "static/media/michaelscott.png": "/static/media/michaelscott.439f23c86b8e2efbff28.png",
+    "static/media/MySQL.png": "/static/media/MySQL.c2073db7c71dd084f5c7.png",
+    "static/media/wireframe.jpeg": "/static/media/wireframe.d683f1fc52865604feaf.jpeg",
+    "static/media/flask.png": "/static/media/flask.deacd3f2eceef8817425.png",
+    "static/media/suit.png": "/static/media/suit.8023bf2b5c64ccee46c8.png",
+    "static/media/mongodb.png": "/static/media/mongodb.e25cae079000bd0e89cc.png",
+    "static/media/java.png": "/static/media/java.5d5cffa04d820ba0644c.png",
+    "static/media/nodejs.png": "/static/media/nodejs.e71346fe0fec16ec5f6e.png",
+    "static/media/django2.png": "/static/media/django2.4c399895f677cd3bfbc8.png",
+    "static/media/sarcasm.jpeg": "/static/media/sarcasm.426467669a38687d0f77.jpeg",
+    "static/media/JavaScript-logo.png": "/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
+    "index.html": "/index.html",
+    "main.2cefaeba.css.map": "/static/css/main.2cefaeba.css.map",
+    "main.7625606c.js.map": "/static/js/main.7625606c.js.map",
+    "787.db9b214f.chunk.js.map": "/static/js/787.db9b214f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cefaeba.css",
+    "static/js/main.7625606c.js"
+  ]
+}
