@@ -34,7 +34,7 @@ const Projects = () => {
                         <div className="projectTextWrapper text-center" id="front">
                             <h2>reviewSource</h2>
                             <h4>Java - JavaScript - MySQL</h4>
-                            <p id="front">A fully featured Java website that allows users to register and create reviews for movies, books, music, etc. Supports movie search through IMDB. Includes instant Guest Login because who wants to register for some random guy's website anyway?  </p>
+                            <p id="front">A fully featured Java website that allows users to register and create reviews for movies, books, music, etc. Supports movie search through the IMDB API. Main page is designed using custom carousel build in JavaScript. Includes instant Guest Login because who wants to register for some random guy's website anyway?  </p>
                         </div>
                     </div>
                 </div>

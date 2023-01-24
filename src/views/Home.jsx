@@ -2,6 +2,7 @@ import Contact from '../components/Contact';
 import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
+import resume from '../img/KeithJournell_resume.pdf'
 
 const TestHome = props => {
     // TEST STUFF THAT I WILL USE EVENTUALLY MAYBE
@@ -35,13 +36,13 @@ const TestHome = props => {
                             <h5><a href="https://github.com/KNJour" className="d-md-none"id="portfolio-link" target="_blank" rel="noreferrer">GitHub</a></h5>
                             <h5><a href="https://github.com/KNJour/Portfolio" className="d-md-none" id="portfolio-link" target="_blank" rel="noreferrer">Portfolio Code</a></h5>
                         <h4><a href="#projects-start" id="portfolio-link" rel="noreferrer" className="smallBegone">Projects</a></h4>
-                        <h4><a href="#skillStart" id="portfolio-link" rel="noreferrer" className="smallBegone">Skills</a></h4>
                         <h4><a href="#contactStart" id="portfolio-link" rel="noreferrer" className="smallBegone">Contact</a></h4>
+                        <h4><a href={resume} target="_blank" id="portfolio-link" rel="noreferrer" className="smallBegone">Resume</a></h4>
                     </div>  
                     {/* BELOW 768px this appears */}
                     <div className="col-12 p-0 d-flex align-items-center text-center justify-content-center d-xs-block d-md-none">
                         <h5><a href="#projects-start" id="portfolio-link" rel="noreferrer">Projects</a></h5>
-                        <h5><a href="#skillStart" id="portfolio-link" rel="noreferrer">Skills</a></h5>
+                        <h5><a href={resume} target="_blank" id="portfolio-link" rel="noreferrer">Resume</a></h5>
                         <h5><a href="#contactStart" id="portfolio-link" rel="noreferrer">Contact</a></h5>
                     </div>
                  {/* LOGO PORTION FOR LANGUAGES */}
